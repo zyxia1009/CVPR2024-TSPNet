@@ -1,0 +1,1 @@
+from .config import generate_args as generate_thumos_args
