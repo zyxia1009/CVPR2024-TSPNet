@@ -56,7 +56,7 @@ bash ./test_thumos.sh
 ## Citation
 
 ```
-@inproceedings{xia2023realigning,
+@inproceedings{xia2024realigning,
   title={Realigning Confidence with Temporal Saliency Information for Point-level Weakly-Supervised Temporal Action Localization},
   author={Xia, Ziying and Cheng, Jian and Liu, Siyu and Hu, Yongxiang and Wang, Shiguang and Zhang, Yijie and Dang, Wanli},
   booktitle={The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
