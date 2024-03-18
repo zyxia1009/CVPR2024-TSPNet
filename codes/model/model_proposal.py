@@ -26,7 +26,7 @@ class Backbone_TSPNet(torch.nn.Module):
             nn.ReLU(),
             nn.Conv1d(embed_dim, 1, 1),
         )
-        self.prop_center = nn.Sequential(
+        self.prop_completeness = nn.Sequential(
             nn.Conv1d(feat_dim, embed_dim, 1),
             nn.ReLU(),
             nn.Conv1d(embed_dim, 1, 1),
@@ -52,7 +52,7 @@ class Backbone_TSPNet(torch.nn.Module):
 
         prop_cas = self.prop_classifier(feat_fuse)  # [1, C, M]
         prop_attn = self.prop_attention(feat_fuse)  # [1, 1, M]
-        prop_center = self.prop_center(feat_fuse)  # [1, 1, M]
+        prop_center = self.prop_completeness(feat_fuse)  # [1, 1, M]
         return prop_cas, prop_attn, prop_center, feat_fuse
 
 
