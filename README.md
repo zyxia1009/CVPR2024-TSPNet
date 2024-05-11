@@ -66,7 +66,7 @@ bash ./test_thumos.sh
 
 ## Contact
 
-If you have any question please contact zyxia@std.uestc.edu.com
+If you have any question please contact zyxia@std.uestc.edu.cn
 
 ## Acknowledgment
 
