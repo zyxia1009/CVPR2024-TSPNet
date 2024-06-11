@@ -4,7 +4,7 @@
 
 This is an official release of our paper **"Realigning Confidence with Temporal Saliency Information for Point-level Weakly-Supervised Temporal Action Localization"**. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Xia_Realigning_Confidence_with_Temporal_Saliency_Information_for_Point-Level_Weakly-Supervised_Temporal_CVPR_2024_paper.pdf) 
 
-Ziying Xia, Jian Cheng, Siyu Liu, Yongxiang Hu, Shiguang Wang, Yijie Zhang, Wanli Dang
+Ziying Xia, Jian Cheng, Siyu Liu, Yongxiang Hu, Shiguang Wang, Yijie Zhang, Liwan Dang
 
 ![framework](./framework.jpg)
 
